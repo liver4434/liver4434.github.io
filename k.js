@@ -6,3 +6,4 @@ const widget = document.getElementsByClassName("dialog-widget")[0];
 widget.parentNode.removeChild(widget);
 window.stop();
 document.getElementById("cow-image").src = document.getElementById("cow-image").src + "?load=1";
+document.getElementsByClassName("overlay")[0].style.display = 'none';
