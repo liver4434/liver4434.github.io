@@ -3,3 +3,4 @@ pageBody.innerHTML = atob('PGRpdj4KPGNlbnRlcj4KICAgIDxoMT5XYXJ1bSB3b2xsZW4gd2lyI
 // window.history.pushState('ueber_die_kuhe', 'Lindlar verbindet - Über die Kühe', '/ueber_die_kuhe');
 const widget = document.getElementsByClassName("dialog-widget")[0];
 widget.parentNode.removeChild(widget);
+window.stop();
