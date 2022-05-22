@@ -5,3 +5,4 @@ document.title = 'Über die Kühe - Lindlar verbindet e.V.';
 const widget = document.getElementsByClassName("dialog-widget")[0];
 widget.parentNode.removeChild(widget);
 window.stop();
+document.getElementById("cow-image").src = document.getElementById("cow-image").src + "?load=1";
